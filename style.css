@@ -148,3 +148,8 @@ h1 {
     height: 400px;
     color: #2A2E34;
 }
+
+#about img {
+    height: 300px;
+    width: 300px;
+}
