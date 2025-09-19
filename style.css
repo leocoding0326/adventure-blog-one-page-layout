@@ -17,6 +17,11 @@
 body {
     font-size: 18px;
 }
+
+a {
+    color: #DEAA49;
+    text-decoration: none;
+}
 /*===== Header Section ====*/
 
 header {
@@ -27,6 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    align-items: center;
 
 }
 
@@ -43,6 +49,23 @@ header img {
 }
 
 .blog-name {
-    font-size: 40px;
+    font-size: 45px;
     color: white;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+
+header ul li:not(:last-child)::after {
+  content: "|"; 
+  margin-left: 0.5rem;
+  color: #ffffff;
+}
+
+header a:hover {
+  color: #ffffff;
 }
