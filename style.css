@@ -141,3 +141,10 @@ h1 {
     font-size: 15px;
     font-weight: 500;
 }
+
+/* ABOUT US SECTION */
+
+#about {
+    height: 400px;
+    color: #2A2E34;
+}
