@@ -100,8 +100,8 @@ header a:hover {
     height: 600px;
     background-image: url(./media/images/hero-section.jpg);
     background-position: center;
-    margin: 10px;
-    border: 1px solid lightgray;
+    margin: 40px 10px;
+    border: 1px solid #D9B97E;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -133,3 +133,11 @@ h1 {
     color: white;
 }
 
+.hero button {
+    background-color: #DEAA49;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
