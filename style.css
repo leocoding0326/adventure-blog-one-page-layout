@@ -1,5 +1,20 @@
 
-    /* COLOR PALETE */
+/*  FONTS */
+
+@font-face {
+  font-family: "title";
+  src: url(./fonts/title/ShadowsIntoLightTwo-Regular.woff2) format("woff2"),
+       url(./fonts/title/ShadowsIntoLightTwo-Regular.woff) format("woff"),
+       url(./fonts/title/ShadowsIntoLightTwo-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+   
+   
+   
+   
+   /* COLOR PALETE */
 
 /* Primary Color (buttons and sections borders) ==== #DEAA49 */
 /* Secondary Color (for header and footer) ==== #3668A5 */
@@ -24,6 +39,7 @@ a {
 }
 /*===== Header Section ====*/
 
+
 header {
     height: 100px;
     background-color: #3668A5;
@@ -36,11 +52,6 @@ header {
 
 }
 
-header img {
-    height: 100px;
-    width: 100px;
-}
-
 .left {
     display: flex;
     justify-content: center;
@@ -48,10 +59,21 @@ header img {
     gap: 10px;
 }
 
+header img {
+    height: 100px;
+    width: 100px;
+}
+
+
+
 .blog-name {
     font-size: 45px;
     color: white;
+    font-family: "title", sans-serif;
+    letter-spacing: 2px;
 }
+
+/* NAVIGATION */
 
 header ul {
     display: flex;
@@ -68,4 +90,10 @@ header ul li:not(:last-child)::after {
 
 header a:hover {
   color: #ffffff;
+}
+
+/* HERO SECTION */
+
+.hero {
+    
 }
