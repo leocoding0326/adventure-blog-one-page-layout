@@ -121,3 +121,11 @@ h1 {
 .hero-top p {
     font-size: 25px;
 }
+
+.hero-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-right: 40px;
+}
