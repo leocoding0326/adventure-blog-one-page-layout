@@ -40,8 +40,9 @@ a {
 }
 
 h3 {
-    color: #D8B97E;
+    color: #BCA06D;
     font-size: 40px;
+    font-weight: 500;
 }
 /*===== Header Section ====*/
 
@@ -151,15 +152,19 @@ h1 {
 
 #about {
     height: 400px;
-    color: #2A2E34;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px
+    gap: 40px;
+    line-height: 2.5rem;
 }
 
 #about p {
-    width: 800px;
+    font-size: 25px;
+    padding: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    
 }
 
