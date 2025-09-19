@@ -1,10 +1,10 @@
 
     /* COLOR PALETE */
 
-/* Primary Color ==== #DEAA49 */
-/* Secondary Color ==== #407AC1 */
-/* Accent for headers === #5E594E */
-/* For sections backgrounds === #5B6F89 */
+/* Primary Color (buttons and sections borders) ==== #DEAA49 */
+/* Secondary Color (for header and footer) ==== #3668A5 */
+/* Accent for headers (h2 h3 etc) === #5E594E */
+/* For sections (backgrounds) === #5B6F89 */
 
 
 /*==== UNIVERSAL RULES ====*/
@@ -21,7 +21,7 @@ body {
 
 header {
     height: 100px;
-    background-color: #407AC1;
+    background-color: #3668A5;
     opacity: 0.8;
     padding: 0 20px;
     display: flex;
