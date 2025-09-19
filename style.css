@@ -1,4 +1,23 @@
+
+    /* COLOR PALETE */
+
 /* Primary Color ==== #DEAA49 */
 /* Secondary Color ==== #407AC1 */
 /* Accent for headers === #5E594E */
 /* For sections backgrounds === #5B6F89 */
+
+
+/*==== UNIVERSAL RULES ====*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*===== Header Section ====*/
+
+header {
+    height: 100px;
+    background-color: #407AC1;
+}
