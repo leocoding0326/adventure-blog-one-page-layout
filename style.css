@@ -3,7 +3,7 @@
 
 /* Primary Color (buttons and sections borders) ==== #DEAA49 */
 /* Secondary Color (for header and footer) ==== #3668A5 */
-/* Accent for headers (h2 h3 etc) === #5E594E */
+/* Accent for headers (h2 h3 etc) === #D8B97E */
 /* For sections (backgrounds) === #5B6F89 */
 
 
@@ -40,4 +40,9 @@ header img {
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.blog-name {
+    font-size: 40px;
+    color: white;
 }
