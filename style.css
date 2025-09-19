@@ -108,7 +108,16 @@ header a:hover {
     align-items: flex-end;
 }
 
-h1 {
+h1,
+.hero-top p {
     color: #2A2E34;
+    
+}
+
+h1 {
     font-size: 60px;
+}
+
+.hero-top p {
+    font-size: 25px;
 }
