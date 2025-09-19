@@ -35,7 +35,7 @@ body {
 }
 
 a {
-    color: #DEAA49;
+    color: white;
     text-decoration: none;
 }
 /*===== Header Section ====*/
@@ -91,7 +91,7 @@ header ul li:not(:last-child)::after {
 }
 
 header a:hover {
-  color: #ffffff;
+  color: #D9B97E;
 }
 
 /* HERO SECTION */
