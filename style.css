@@ -34,3 +34,10 @@ header img {
     height: 100px;
     width: 100px;
 }
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
