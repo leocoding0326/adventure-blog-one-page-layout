@@ -38,6 +38,11 @@ a {
     color: white;
     text-decoration: none;
 }
+
+h3 {
+    color: #D8B97E;
+    font-size: 40px;
+}
 /*===== Header Section ====*/
 
 
@@ -147,9 +152,14 @@ h1 {
 #about {
     height: 400px;
     color: #2A2E34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px
 }
 
-#about img {
-    height: 300px;
-    width: 300px;
+#about p {
+    width: 800px;
 }
+
