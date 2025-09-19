@@ -31,6 +31,7 @@
 }
 body {
     font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 a {
@@ -105,12 +106,13 @@ header a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    gap: 20px;
 }
 
 h1,
 .hero-top p {
-    color: #2A2E34;
+    color:  #2A2E34;
     
 }
 
@@ -118,14 +120,16 @@ h1 {
     font-size: 60px;
 }
 
-.hero-top p {
+.hero-text {
     font-size: 25px;
 }
 
-.hero-top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 100px;
-    margin-right: 40px;
+.hero button {
+    width: 150px;
+    height: 40px;
 }
+
+.text-highlight {
+    color: white;
+}
+
