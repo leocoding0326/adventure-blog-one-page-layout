@@ -23,10 +23,13 @@ header {
     height: 100px;
     background-color: #407AC1;
     opacity: 0.8;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 header img {
     height: 100px;
     width: 100px;
-    margin: 0 20px;
 }
