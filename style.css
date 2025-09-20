@@ -39,6 +39,7 @@ a {
     text-decoration: none;
 }
 
+h2, 
 h3 {
     color: #BCA06D;
     font-size: 40px;
@@ -171,7 +172,12 @@ h1 {
 /* FEATURED DESTINATIONS SECTION */
 
 .destinations img {
-    width: 300px;
+    width: 250px;
     height: 300px;
     border-radius: 10px;
 } 
+
+.caption-text {
+    font-weight: lighter;
+    font-style: italic;
+}
