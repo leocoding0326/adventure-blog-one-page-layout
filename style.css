@@ -171,10 +171,29 @@ h1 {
 
 /* FEATURED DESTINATIONS SECTION */
 
+.destinations {
+    text-align: center;
+    background-color:#202732 ;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+
+.destinations-grid {
+    display: grid;
+    grid-template: 1fr 1fr / repeat(3, 250px);
+    padding: 100px;
+    gap: 80px;
+    justify-content: space-evenly;
+
+}
+
+
 .destinations img {
     width: 250px;
     height: 300px;
     border-radius: 10px;
+    border: 2px solid white;
 } 
 
 .caption-text {
