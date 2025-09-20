@@ -152,7 +152,9 @@ h1 {
 /* ABOUT US SECTION */
 
 #about {
-    height: 400px;
+    height: 500px;
+    background-color: #202732;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -163,7 +165,7 @@ h1 {
 
 #about p {
     font-size: 25px;
-    padding: 20px;
+    padding-left: 20px;
     font-weight: lighter;
     font-style: italic;
     
@@ -173,9 +175,7 @@ h1 {
 
 .destinations {
     text-align: center;
-    background-color:#202732 ;
-    color: #ffffff;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 
