@@ -168,3 +168,11 @@ h1 {
     
 }
 
+/* FEATURED DESTINATIONS SECTION */
+
+.destinations img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    opacity: .8;
+} 
