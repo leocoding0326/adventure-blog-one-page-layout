@@ -103,6 +103,7 @@ header ul li:not(:last-child)::after {
 
 header a:hover {
   color: #D9B97E;
+  text-decoration: underline;
 }
 
 /* HERO SECTION */
