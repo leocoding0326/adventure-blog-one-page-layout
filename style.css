@@ -156,7 +156,7 @@ h1 {
 /* ABOUT US SECTION */
 
 #about {
-    height: 500px;
+    height: 400px;
     background-color: #202732;
     color: #ffffff;
     display: flex;
@@ -205,3 +205,28 @@ h1 {
     font-style: italic;
 }
 
+/*  METRICS SECTION */
+
+.metrics {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    margin: 40px 0;
+    line-height: 1.5em;
+}
+
+.metrics-grid {
+    display: grid;
+    grid-template: 1fr / 150px 150px 150px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.metrics img {
+    width: 100px;
+    height: 100px;
+    margin: 40px 0;
+}
