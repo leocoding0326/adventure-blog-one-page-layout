@@ -209,21 +209,16 @@ h1 {
 /*  METRICS SECTION */
 
 .metrics {
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    gap: 40px;
-    margin: 40px 0;
+    height: 300px;
     line-height: 1.5em;
 }
 
 .metrics-grid {
     display: grid;
-    grid-template: 1fr / 150px 150px 150px;
+    grid-template: 300px / 150px 150px 150px;
     justify-content: space-around;
     text-align: center;
+    align-items: center;
 }
 
 .metrics img {
