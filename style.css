@@ -209,13 +209,13 @@ h1 {
 /*  METRICS SECTION */
 
 .metrics {
-    height: 300px;
+    height: 400px;
     line-height: 1.5em;
 }
 
 .metrics-grid {
     display: grid;
-    grid-template: 300px / 150px 150px 150px;
+    grid-template: 400px / 150px 150px 150px;
     justify-content: space-around;
     text-align: center;
     align-items: center;
@@ -225,4 +225,35 @@ h1 {
     width: 100px;
     height: 100px;
     margin: 40px 0;
+}
+
+/* NEWSTELLER FORM */
+
+.newsteller {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #473C29;
+    color: white;
+}
+
+.newsteller form {
+    display: flex;
+    gap: 10px;
+}
+
+.newsteller input {
+    height: 30px;
+    width: 500px;
+}
+
+.newsteller button {
+    width: 100px;
+    height: 30px;
+    background-color: #DEAA49;
+    border: none;
+    border-radius: 10px;
+    color: white;
 }
