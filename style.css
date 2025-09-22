@@ -257,3 +257,30 @@ h1 {
     border-radius: 10px;
     color: white;
 }
+
+/* FOOTER SECTION */
+
+footer {
+    background-color:#3668A5 ;
+    height: 400px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 300px 400px 300px;
+    grid-template-rows: 200px 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-right {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.copy-right {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: self-end;
+    padding-bottom: 20px;
+}
